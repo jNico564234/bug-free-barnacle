@@ -2,12 +2,25 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+
+
+
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+
+   
+    <App titulop="SPORTS EVOLUTION" imgtitulo="depor3.jpg" imgtitulo2="sele3.jpg" 
+    correo="SportsEvolution@gmail.com" numero="347850912" pagina="Sports Evolution"/>
+
+  
+   
+
+
   </React.StrictMode>
 );
 
